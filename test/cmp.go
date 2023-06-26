@@ -44,7 +44,7 @@ func main() {
 	var b map[string]int
 
 	var c string = "hello"
-	var d string = "hel" // try to get different pointer
+	var d string = "hel  " // try to get different pointer
 	d = d + "lo"
 
 	// go.tools/ssa/interp can't handle unsafe.Pointer.
